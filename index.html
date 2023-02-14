@@ -36,7 +36,7 @@
     <br />
     <br />
 
-    <form action="registration" method="post">
+    <form>
 
         <label for="username">Username: </label>
         <input type="text" id="username" name="username" placeholder="Oedipus" /> <!--USERNAME-->
@@ -46,7 +46,8 @@
         <br />
         <label for="button">Button</label>
         <input type="button" id="button" name="button" value="This is a button" /> <br /> <!-- BUTTON-->
-
+                                                                                   
+                                                                                   <br />
         <input type="radio" id="genshin" name="game" value="genshinPlayer" /> <!--RADIO BUTTONS label for need an id in input, whereas name reads as one-->
         <label for="genshin">Genshin Player</label>
         <br />
@@ -60,6 +61,25 @@
         <label for="minecraft">Minecraft Player</label>
         <br />
         <br />
+        <input type="checkbox" name="dog" value="dog" />
+        <label for="dog">Dog</label>
+        <br />
+        <input type="checkbox" name="cat" value="cat" />
+        <label for="cat">Cat</label>
+
+        <br />
+        <textarea rows="5" placeholder="Henluu"></textarea>
+        <br />
+        <select name="food">
+            <option value="Cheese Souflei">Cheese Souflei</option>
+            <option value="Creamy Dango">Creamy Dango</option>
+            <option value="Almond Donut">Almond Donut</option>
+            <option value="Jiggly Cheese Cake">Jiggly Cheese Cake</option>
+            <option value="Matcha Ice Cream">Matcha Ice Cream</option>
+            <option value="Triple Sago Zagu">Triple Sago Zagu</option>
+        </select>
+        <br />
+        <input type="submit" name="submit"  />
     </form>
 
     <a href="/Location.html">Location</a>
